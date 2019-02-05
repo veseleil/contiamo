@@ -1,0 +1,73 @@
+div { 
+    /* width:150px; */
+    background-color: red;
+}
+
+
+.mieidiv
+{
+    background-color: yellow !important;
+}
+
+#secondodiv {
+    background-color: green;
+}
+
+.divgenerici
+{
+    background-color: gray;
+}
+
+#sestodiv {
+    border: 1px solid black;
+}
+
+p {
+    font-size:15px;
+}
+
+div>p
+{
+    font-size:25px;
+    display:none;
+}
+
+body p
+{
+    font-family: Tahoma;
+}
+
+p.miaclasse {
+    padding:10px;
+}
+
+ul>li{
+display:inline-block;
+}
+
+li+li
+{
+ padding-left:15px;   
+}
+
+li>a
+{
+text-decoration: none;
+background-color:gray;
+width:60px;
+}
+
+a:hover
+{
+padding:30px;
+}
+
+a[title='Il mio primo Link']
+{
+    font-size:25px;
+}
+
+label 
+{
+    display:block;
+}
